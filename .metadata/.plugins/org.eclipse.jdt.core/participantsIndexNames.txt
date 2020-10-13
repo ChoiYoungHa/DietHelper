@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+D:\DietHelper\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3624472666.index
+\DietHelper\src
+D:\DietHelper\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4118955695.index
+\DietHelper\src
+D:\DietHelper\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3036247564.index
+\DietHelper\src
+D:\DietHelper\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3802392547.index
+\DietHelper\src
