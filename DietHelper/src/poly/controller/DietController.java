@@ -15,11 +15,15 @@ public class DietController {
 	
 	private Logger log = Logger.getLogger(this.getClass());
 	
+	
 	@RequestMapping(value="/DeitHelper")
 	public String DeitHelper() {
 		log.info("DietHelper Start!");
 		return "/Diet/Weight init";	
 	}
+	
+	
+	
 	
 	
 	
