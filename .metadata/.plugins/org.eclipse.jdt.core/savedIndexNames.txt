@@ -4,7 +4,6 @@ INDEX VERSION 1.131+D:\DietHelper\.metadata\.plugins\org.eclipse.jdt.core
 496826798.index
 3720716507.index
 1683315700.index
-3485985768.index
 136144098.index
 2648179338.index
 686889833.index

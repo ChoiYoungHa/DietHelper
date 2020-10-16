@@ -21,11 +21,6 @@ public class DietController {
 		log.info("DietHelper Start!");
 		return "/Diet/Weight init";	
 	}
-	@RequestMapping(value="/DeitHelper/UserRegForm")
-	public String userRegForm() {
-		log.info("userRegInfo Start!");
-		return "/Diet/UserRegForm";
-	}
 	
 	
 	
