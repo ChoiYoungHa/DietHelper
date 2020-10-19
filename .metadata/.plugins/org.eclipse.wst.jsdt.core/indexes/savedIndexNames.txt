@@ -1,5 +1,4 @@
 INDEX VERSION 1.4+D:\DietHelper\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-3036247564.index
 1467304500.index
 1310297874.index
 246273087.index
