@@ -27,11 +27,6 @@ public class DietController {
 		return "/Diet/UserRegForm";
 	}
 	
-	@RequestMapping(value="/insertMember")
-	public String insertMember() {
-		// 회원가입 로직구현 예정
-		return null;
-	}
 	
 	
 	
