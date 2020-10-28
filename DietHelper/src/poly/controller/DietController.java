@@ -33,6 +33,12 @@ public class DietController {
 		return null;
 	}
 	
+	@RequestMapping(value="/autokcaltest")
+	public String autokcaltest() {
+		
+		return null;
+	}
+	
 	
 	
 	

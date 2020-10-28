@@ -15,11 +15,25 @@ public class DietController {
 	
 	private Logger log = Logger.getLogger(this.getClass());
 	
+	
 	@RequestMapping(value="/DeitHelper")
 	public String DeitHelper() {
 		log.info("DietHelper Start!");
 		return "/Diet/Weight init";	
 	}
+	@RequestMapping(value="/DeitHelper/UserRegForm")
+	public String userRegForm() {
+		log.info("userRegInfo Start!");
+		return "/Diet/UserRegForm";
+	}
+	
+	@RequestMapping(value="/insertMember")
+	public String insertMember() {
+		// 회원가입 로직구현 예정
+		return null;
+	}
+	
+	
 	
 	
 	
