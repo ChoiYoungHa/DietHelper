@@ -16,12 +16,12 @@ public class DietController {
 	private Logger log = Logger.getLogger(this.getClass());
 	
 	
-	@RequestMapping(value="/DietHelper")
-	public String DietHelper() {
+	@RequestMapping(value="/DeitHelper")
+	public String DeitHelper() {
 		log.info("DietHelper Start!");
 		return "/Diet/Weight init";	
 	}
-	@RequestMapping(value="/DietHelper/UserRegForm")
+	@RequestMapping(value="/DeitHelper/UserRegForm")
 	public String userRegForm() {
 		log.info("userRegInfo Start!");
 		return "/Diet/UserRegForm";
