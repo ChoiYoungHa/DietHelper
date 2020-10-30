@@ -16,12 +16,12 @@ public class DietController {
 	private Logger log = Logger.getLogger(this.getClass());
 	
 	
-	@RequestMapping(value="/DeitHelper")
-	public String DeitHelper() {
+	@RequestMapping(value="/DietHelper")
+	public String DietHelper() {
 		log.info("DietHelper Start!");
 		return "/Diet/Weight init";	
 	}
-	@RequestMapping(value="/DeitHelper/UserRegForm")
+	@RequestMapping(value="/DietHelper/UserRegForm")
 	public String userRegForm() {
 		log.info("userRegInfo Start!");
 		return "/Diet/UserRegForm";
@@ -30,6 +30,12 @@ public class DietController {
 	@RequestMapping(value="/insertMember")
 	public String insertMember() {
 		// 회원가입 로직구현 예정
+		return null;
+	} 
+	
+	@RequestMapping(value="/autokcaltest")
+	public String autokcaltest() {
+		
 		return null;
 	}
 	

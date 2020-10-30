@@ -1,11 +1,13 @@
 package poly.controller;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import poly.dto.DietDTO;
 import poly.service.IDietService;
 
 @Controller
@@ -30,11 +32,18 @@ public class DietController {
 	@RequestMapping(value="/insertMember")
 	public String insertMember() {
 		// 회원가입 로직구현 예정
+		
+		log.info("insertMember Start!");
 		return null;
-	}
+	} 
 	
 	@RequestMapping(value="/autokcaltest")
-	public String autokcaltest() {
+	public String autokcaltest(HttpServletRequest request) {
+		
+		String tall = request.getParameter("tall");
+		
+		DietDTO rDTO = new DietDTO();
+		
 		
 		return null;
 	}
